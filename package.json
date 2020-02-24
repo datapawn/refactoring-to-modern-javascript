@@ -10,7 +10,8 @@
     "test:update": "jest --verbose --coverage --updateSnapshot",
     "test:watch": "jest --verbose --watch",
     "coverage": "jest --verbose --coverage && open ./coverage/lcov-report/index.html",
-    "todo": "todo-viewer \"**/*.js\""
+    "todo": "todo-viewer \"**/*.js\"",
+    "backend": "json-server --watch src/100-final-project/data/db.json"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
