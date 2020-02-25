@@ -61,7 +61,7 @@ describe('rest-and-spread', () => {
   });
 
   // TODO: implement the method, then remove the .skip here to test it
-  describe.skip('immutableArrayAppend', () => {
+  describe('immutableArrayAppend', () => {
     it('should append two arrays into a new one', () => {
       expect.assertions(2);
 
@@ -122,7 +122,7 @@ describe('rest-and-spread', () => {
   });
 
   // TODO: implement the method, then remove the .skip here to test it
-  describe.skip('immutableObjectAppend', () => {
+  describe('immutableObjectAppend', () => {
     it('should return a new fully defined object', () => {
       expect.assertions(2);
 
@@ -183,7 +183,7 @@ describe('rest-and-spread', () => {
   });
 
   // TODO: MAJOR CHALLENGE!!
-  describe.skip('flatten', () => {
+  describe('flatten', () => {
     it('should return a new array', () => {
       expect.assertions(2);
 
